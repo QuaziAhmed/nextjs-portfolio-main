@@ -7,58 +7,50 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
-    image: "/images/projects/1.png",
-    tag: ["All", "Web"],
+    title: "Vulnerability Assessment Lab ",
+    description: "",
+    image: "/images/projects/11.png",
+    tag: ["All", "Threat"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
-    image: "/images/projects/2.png",
-    tag: ["All", "Web"],
+    title: "Password Management System in AWS",
+    description: "",
+    image: "/images/projects/22.png",
+    tag: ["All", "Threat"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 3,
-    title: "E-commerce Application",
+    title: "Multi Honeypot Platform                                                                                                      ",
     description: "Project 3 description",
-    image: "/images/projects/3.png",
-    tag: ["All", "Web"],
+    image: "/images/projects/33.png",
+    tag: ["All", "SIEM"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
-    image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
+    title: "Microsoft Sentinel SIEM",
+    description: "",
+    image: "/images/projects/44.png",
+    tag: ["All", "SIEM"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
-    image: "/images/projects/5.png",
-    tag: ["All", "Web"],
+    title: "AI Enabled Incident Response Automation                                                ",
+    description: "",
+    image: "/images/projects/55.jpg",
+    tag: ["All", "SIEM"],
     gitUrl: "/",
     previewUrl: "/",
   },
-  {
-    id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
+  
 ];
 
 const ProjectsSection = () => {
@@ -92,13 +84,13 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Web"
-          isSelected={tag === "Web"}
+          name="Threat"
+          isSelected={tag === "Threat"}
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="SIEM"
+          isSelected={tag === "SIEM"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
