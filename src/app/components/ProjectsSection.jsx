@@ -26,7 +26,7 @@ const projectsData = [
   {
     id: 3,
     title: "Multi Honeypot Platform                                                                                                      ",
-    description: "Project 3 description",
+    description: "",
     image: "/images/projects/33.png",
     tag: ["All", "SIEM"],
     gitUrl: "/",
